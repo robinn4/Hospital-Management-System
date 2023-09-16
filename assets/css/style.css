@@ -1,10 +1,9 @@
 /* =======================================================================
-Template Name: Dil Hospital
+Template Name: Hospital
 Author:  SmartEye Adminpanel
-Author URI: www.smarteyeapps.com
+Author URI: https://robinn4.github.io/Hospital-Management-System/
 Version: 1.0
-coder name:Prabin Raja
-Description: This Template is created for web template
+coder name:Robin Derik
 ======================================================================= */
 /* ===================================== Import Less ================================== */
 @font-face {
@@ -18,7 +17,9 @@ Description: This Template is created for web template
   margin: 0px;
   padding: 0px;
   list-style: none; }
-
+html{
+  scroll-behavior: smooth;
+}
 img {
   max-width: 100%; }
 
@@ -418,10 +419,15 @@ header {
 /*====================================== About Us Style ====================================*/
 .about-us .image-bg {
   background-image: url(../images/why.jpg);
-  background-size: contain; }
+
+  background-size: contain;
+padding-top: 500px; }
 .about-us .abut-yoiu {
-  padding: 50px;
+text-align: center;
+ padding-top: 100px;
   background-color: #FFF; }
+h5{
+text-align: left;}
 
 /* ===================================== Gallery Style  ================================== */
 .gallery-filter {
